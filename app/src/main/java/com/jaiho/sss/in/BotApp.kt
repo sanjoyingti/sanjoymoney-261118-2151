@@ -1,4 +1,3 @@
-=== ABOUT: The app's startup class: it opens the saved settings and creates the notification channel ===
 package com.jaiho.sss.in
 
 import android.app.Application

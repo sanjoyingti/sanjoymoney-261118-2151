@@ -1,4 +1,3 @@
-=== ABOUT: The colour values of the app: green accent on a near-black background ===
 package com.jaiho.sss.in.ui.theme
 
 import androidx.compose.ui.graphics.Color

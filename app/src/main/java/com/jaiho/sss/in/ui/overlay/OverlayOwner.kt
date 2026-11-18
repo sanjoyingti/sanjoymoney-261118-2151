@@ -1,4 +1,3 @@
-=== ABOUT: Gives the floating panel the same life-cycle plumbing a normal screen gets ===
 package com.jaiho.sss.in.ui.overlay
 
 import android.content.Context
@@ -9,12 +8,12 @@ import androidx.lifecycle.LifecycleOwner
 import androidx.lifecycle.LifecycleRegistry
 import androidx.lifecycle.ViewModelStore
 import androidx.lifecycle.ViewModelStoreOwner
-import androidx.lifecycle.setViewTreeLifecycleOwner
-import androidx.lifecycle.setViewTreeViewModelStoreOwner
+import androidx.lifecycle.ViewTreeLifecycleOwner
+import androidx.lifecycle.ViewTreeViewModelStoreOwner
 import androidx.savedstate.SavedStateRegistry
 import androidx.savedstate.SavedStateRegistryController
 import androidx.savedstate.SavedStateRegistryOwner
-import androidx.savedstate.setViewTreeSavedStateRegistryOwner
+import androidx.savedstate.ViewTreeSavedStateRegistryOwner
 
 class OverlayOwner : LifecycleOwner, ViewModelStoreOwner, SavedStateRegistryOwner {
 
@@ -50,9 +49,9 @@ fun Context.createOverlayView(
     content: @Composable () -> Unit
 ): ComposeView {
     val view = ComposeView(this)
-    view.setViewTreeLifecycleOwner(owner)
-    view.setViewTreeViewModelStoreOwner(owner)
-    view.setViewTreeSavedStateRegistryOwner(owner)
+    ViewTreeLifecycleOwner.set(view, owner)
+    ViewTreeViewModelStoreOwner.set(view, owner)
+    ViewTreeSavedStateRegistryOwner.set(view, owner)
     view.setContent(content)
     return view
 }

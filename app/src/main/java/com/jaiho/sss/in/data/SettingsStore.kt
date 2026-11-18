@@ -1,4 +1,3 @@
-=== ABOUT: Saves every switch and tap point to the phone's storage so the bot remembers them next time ===
 package com.jaiho.sss.in.data
 
 import android.content.Context

@@ -1,4 +1,3 @@
-=== ABOUT: The single place where the app writes its log lines under the name SanjoyBot ===
 package com.jaiho.sss.in.util
 
 import android.util.Log

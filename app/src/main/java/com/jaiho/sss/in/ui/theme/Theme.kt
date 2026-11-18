@@ -1,4 +1,3 @@
-=== ABOUT: The dark look of the whole app, fixed to green on near-black ===
 package com.jaiho.sss.in.ui.theme
 
 import androidx.compose.material3.MaterialTheme
@@ -6,6 +5,7 @@ import androidx.compose.material3.Typography
 import androidx.compose.material3.darkColorScheme
 import androidx.compose.material3.lightColorScheme
 import androidx.compose.runtime.Composable
+import androidx.compose.ui.graphics.Color
 
 private val DarkScheme = darkColorScheme(
     primary = Accent,
@@ -25,25 +25,24 @@ private val DarkScheme = darkColorScheme(
     onError = Bg
 )
 
+private val LightBg = Color(0xFFF3F7F5)
+private val LightSurface = Color(0xFFE2EBE6)
+
 private val LightScheme = lightColorScheme(
     primary = AccentDim,
     onPrimary = TextMain,
     primaryContainer = Accent,
     onPrimaryContainer = Bg,
-    background = Color0(),
+    background = LightBg,
     onBackground = Bg,
-    surface = Color1(),
+    surface = LightSurface,
     onSurface = Bg,
-    surfaceVariant = Color2(),
+    surfaceVariant = LightSurface,
     onSurfaceVariant = Bg,
     outline = Outline,
     error = Danger,
     onError = Bg
 )
-
-private fun Color0() = Accent
-private fun Color1() = androidx.compose.ui.graphics.Color(0xFFF3F7F5)
-private fun Color2() = androidx.compose.ui.graphics.Color(0xFFE2EBE6)
 
 @Composable
 fun SanjoyTheme(darkTheme: Boolean = true, content: @Composable () -> Unit) {

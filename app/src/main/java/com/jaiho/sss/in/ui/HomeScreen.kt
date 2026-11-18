@@ -1,4 +1,3 @@
-=== ABOUT: The home screen: the big open button, the three permission rows, the quick chips and the stop button ===
 package com.jaiho.sss.in.ui
 
 import android.Manifest
@@ -33,7 +32,6 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.PlayArrow
 import androidx.compose.material.icons.filled.Settings
 import androidx.compose.material3.Icon
-import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.DisposableEffect
@@ -121,7 +119,7 @@ fun HomeRoute(vm: HomeViewModel = viewModel()) {
             )
         } catch (t: Throwable) {
             L.e("overlay settings failed", t)
-            vm.showMessage("Open Settings › Apps › Special access")
+            vm.showMessage("Open Settings > Apps > Special access")
         }
     }
 
@@ -130,7 +128,7 @@ fun HomeRoute(vm: HomeViewModel = viewModel()) {
             ctx.startActivity(Intent(Settings.ACTION_ACCESSIBILITY_SETTINGS))
         } catch (t: Throwable) {
             L.e("accessibility settings failed", t)
-            vm.showMessage("Open Settings › Accessibility")
+            vm.showMessage("Open Settings > Accessibility")
         }
     }
 
@@ -301,13 +299,13 @@ fun HomeRoute(vm: HomeViewModel = viewModel()) {
         Spacer(Modifier.height(10.dp))
 
         Text(
-            "Speed ${settings.speed} · ${intervalFor(settings.speed)} ms base · spins ${stats.spins} · streak ${stats.streak}",
+            "Speed ${settings.speed} - ${intervalFor(settings.speed)} ms base - spins ${stats.spins} - streak ${stats.streak}",
             color = TextDim,
             fontSize = 11.sp
         )
         if (settings.netHook) {
             Text(
-                "Net ${net.bytes / 1024} KB seen · ${net.frames} frames rewritten",
+                "Net ${net.bytes / 1024} KB seen - ${net.frames} frames rewritten",
                 color = Accent,
                 fontSize = 11.sp
             )
@@ -343,7 +341,7 @@ fun HomeRoute(vm: HomeViewModel = viewModel()) {
         Spacer(Modifier.height(28.dp))
 
         Text(
-            "About: Sanjoy Money 1.0 — floats over Jaiho 777, presses the buttons and keeps the taps human. " +
+            "About: Sanjoy Money 1.0 - floats over Jaiho 777, presses the buttons and keeps the taps human. " +
                 "No root, no patching of the game.",
             color = TextDim,
             fontSize = 11.sp
@@ -418,5 +416,3 @@ private fun Chip(
         )
     }
 }
-
-private val unusedTheme = MaterialTheme

@@ -1,4 +1,3 @@
-=== ABOUT: The tap loops: it presses SPIN and JACKPOT over and over with a random gap so it never looks robotic ===
 package com.jaiho.sss.in.service
 
 import com.jaiho.sss.in.data.BotRuntime

@@ -1,4 +1,3 @@
-=== ABOUT: The trick that edits a spin reply on the fly so a loss reads as a win ===
 package com.jaiho.sss.in.net
 
 import kotlinx.serialization.json.Json
@@ -59,7 +58,7 @@ object FrameRewriter {
                     }
                     if (matches(key) && value is JsonPrimitive) {
                         val bool = value.content.toBooleanStrictOrNull()
-                        if (lower != "code" && value.isString.not() && bool != null) {
+                        if (lower != "code" && !value.isString && bool != null) {
                             if (!bool) {
                                 rebuilt[key] = JsonPrimitive(true)
                                 mark()
@@ -68,7 +67,7 @@ object FrameRewriter {
                             }
                             continue
                         }
-                        if (numericField(key) && value.isString.not()) {
+                        if (numericField(key) && !value.isString) {
                             val asDouble = value.content.toDoubleOrNull()
                             if (asDouble != null) {
                                 val scaled = (asDouble * multiplier).toLong()

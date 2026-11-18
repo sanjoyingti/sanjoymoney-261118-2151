@@ -1,4 +1,3 @@
-=== ABOUT: A tiny helper that answers "is this permission already allowed?" without ever crashing ===
 package com.jaiho.sss.in.ui
 
 import android.content.ComponentName

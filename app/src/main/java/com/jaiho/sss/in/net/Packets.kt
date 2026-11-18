@@ -1,4 +1,3 @@
-=== ABOUT: Builds the raw internet parcels the phone sends back into the game connection ===
 package com.jaiho.sss.in.net
 
 object Packets {

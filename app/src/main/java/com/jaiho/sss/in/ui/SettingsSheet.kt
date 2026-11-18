@@ -1,4 +1,3 @@
-=== ABOUT: The settings drawer with the speed, transparency and reward multiplier sliders plus a reset button ===
 package com.jaiho.sss.in.ui
 
 import androidx.compose.foundation.background
@@ -8,7 +7,6 @@ import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
-import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.shape.RoundedCornerShape
@@ -59,7 +57,7 @@ fun SettingsSheet(
             Text("Settings", color = TextMain, fontSize = 18.sp, fontWeight = FontWeight.Bold)
             Spacer(Modifier.height(16.dp))
 
-            Text("Speed ${speed} · ${intervalFor(speed)} ms", color = TextDim, fontSize = 12.sp)
+            Text("Speed $speed - ${intervalFor(speed)} ms", color = TextDim, fontSize = 12.sp)
             Slider(
                 value = speed.toFloat(),
                 onValueChange = { onSpeed(it.roundToInt().coerceIn(1, 6)) },
@@ -78,7 +76,7 @@ fun SettingsSheet(
             )
 
             Spacer(Modifier.height(10.dp))
-            Text("Win multiplier ×${multiplier.roundToInt()}", color = TextDim, fontSize = 12.sp)
+            Text("Win multiplier x${multiplier.roundToInt()}", color = TextDim, fontSize = 12.sp)
             Slider(
                 value = multiplier,
                 onValueChange = onMultiplier,

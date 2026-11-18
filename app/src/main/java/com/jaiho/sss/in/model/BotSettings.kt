@@ -1,4 +1,3 @@
-=== ABOUT: The settings record: the four saved tap points, speed, opacity, panel position and switches ===
 package com.jaiho.sss.in.model
 
 /** The four aimable points. The order here is the order AIM mode walks through them. */

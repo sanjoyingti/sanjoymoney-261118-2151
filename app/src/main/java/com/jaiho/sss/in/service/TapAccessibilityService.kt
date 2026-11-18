@@ -1,4 +1,3 @@
-=== ABOUT: The tap service: Android lets it draw a real finger press at any point on screen ===
 package com.jaiho.sss.in.service
 
 import android.accessibilityservice.AccessibilityService

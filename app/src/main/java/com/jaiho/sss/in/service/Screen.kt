@@ -1,4 +1,3 @@
-=== ABOUT: Knows the real screen size and turns the saved 0-to-1 tap points into actual pixel positions ===
 package com.jaiho.sss.in.service
 
 import android.content.Context
