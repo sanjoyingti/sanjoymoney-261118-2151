@@ -1,4 +1,4 @@
-package com.jaiho.sss.in.net
+package com.jaiho.sss.`in`.net
 
 import android.app.Notification
 import android.app.NotificationChannel
@@ -11,11 +11,11 @@ import android.net.VpnService
 import android.os.Build
 import android.os.ParcelFileDescriptor
 import androidx.core.app.NotificationCompat
-import com.jaiho.sss.in.MainActivity
-import com.jaiho.sss.in.R
-import com.jaiho.sss.in.data.BotRuntime
-import com.jaiho.sss.in.data.TargetResolver
-import com.jaiho.sss.in.util.L
+import com.jaiho.sss.`in`.MainActivity
+import com.jaiho.sss.`in`.R
+import com.jaiho.sss.`in`.data.BotRuntime
+import com.jaiho.sss.`in`.data.TargetResolver
+import com.jaiho.sss.`in`.util.L
 
 class NetHookService : VpnService() {
 
