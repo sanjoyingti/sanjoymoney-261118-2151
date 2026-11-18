@@ -1,9 +1,11 @@
-=== ABOUT: The app's only screen host: it opens the home screen inside the dark theme ===
 package com.jaiho.sss.in
 
+import android.graphics.Color
 import android.os.Bundle
 import androidx.activity.ComponentActivity
+import androidx.activity.SystemBarStyle
 import androidx.activity.compose.setContent
+import androidx.activity.enableEdgeToEdge
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
@@ -17,6 +19,14 @@ class MainActivity : ComponentActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        try {
+            enableEdgeToEdge(
+                statusBarStyle = SystemBarStyle.dark(Color.TRANSPARENT),
+                navigationBarStyle = SystemBarStyle.dark(Color.TRANSPARENT)
+            )
+        } catch (t: Throwable) {
+            L.e("edge to edge failed", t)
+        }
         try {
             val app = application as? BotApp
             if (app != null) BotRuntime.attach(app.container.settings)

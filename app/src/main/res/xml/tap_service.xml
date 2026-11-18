@@ -1,4 +1,3 @@
-=== ABOUT: The settings file that tells Android our tap service only needs to draw finger taps ===
 <?xml version="1.0" encoding="utf-8"?>
 <accessibility-service xmlns:android="http://schemas.android.com/apk/res/android"
     android:accessibilityEventTypes="typeWindowStateChanged"
