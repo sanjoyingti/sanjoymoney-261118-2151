@@ -1,0 +1,6 @@
+=== ABOUT: The two base colours used by the window background ===
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="sanjoy_bg">#0B0F14</color>
+    <color name="sanjoy_green">#22C55E</color>
+</resources>

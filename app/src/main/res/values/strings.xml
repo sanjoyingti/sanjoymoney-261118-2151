@@ -1,0 +1,6 @@
+=== ABOUT: The text strings used by the app and by Android's accessibility settings page ===
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sanjoy Money</string>
+    <string name="tap_service_desc">Lets Sanjoy Money tap buttons inside Jaiho 777 for you. No window content is read.</string>
+</resources>
