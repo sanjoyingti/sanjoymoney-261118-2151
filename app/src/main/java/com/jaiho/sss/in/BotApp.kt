@@ -1,11 +1,11 @@
-package com.jaiho.sss.in
+package com.jaiho.sss.`in`
 
 import android.app.Application
 import android.app.NotificationChannel
 import android.app.NotificationManager
-import com.jaiho.sss.in.data.AppContainer
-import com.jaiho.sss.in.data.BotRuntime
-import com.jaiho.sss.in.util.L
+import com.jaiho.sss.`in`.data.AppContainer
+import com.jaiho.sss.`in`.data.BotRuntime
+import com.jaiho.sss.`in`.util.L
 
 class BotApp : Application() {
 

@@ -1,9 +1,9 @@
-package com.jaiho.sss.in.service
+package com.jaiho.sss.`in`.service
 
 import android.content.Context
 import android.os.Build
 import android.view.WindowManager
-import com.jaiho.sss.in.util.L
+import com.jaiho.sss.`in`.util.L
 
 object Screen {
 

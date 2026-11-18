@@ -1,4 +1,4 @@
-package com.jaiho.sss.in.model
+package com.jaiho.sss.`in`.model
 
 /** The four aimable points. The order here is the order AIM mode walks through them. */
 enum class TapPoint { SPIN, JACKPOT, BET_UP, BET_DOWN }

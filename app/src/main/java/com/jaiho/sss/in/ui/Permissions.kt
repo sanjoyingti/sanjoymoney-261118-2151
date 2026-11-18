@@ -1,10 +1,10 @@
-package com.jaiho.sss.in.ui
+package com.jaiho.sss.`in`.ui
 
 import android.content.ComponentName
 import android.content.Context
 import android.provider.Settings
 import androidx.core.app.NotificationManagerCompat
-import com.jaiho.sss.in.service.TapAccessibilityService
+import com.jaiho.sss.`in`.service.TapAccessibilityService
 
 object Permissions {
 

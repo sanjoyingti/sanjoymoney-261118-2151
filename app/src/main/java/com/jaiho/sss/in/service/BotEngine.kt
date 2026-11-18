@@ -1,9 +1,9 @@
-package com.jaiho.sss.in.service
+package com.jaiho.sss.`in`.service
 
-import com.jaiho.sss.in.data.BotRuntime
-import com.jaiho.sss.in.model.TapPoint
-import com.jaiho.sss.in.model.jitteredInterval
-import com.jaiho.sss.in.util.L
+import com.jaiho.sss.`in`.data.BotRuntime
+import com.jaiho.sss.`in`.model.TapPoint
+import com.jaiho.sss.`in`.model.jitteredInterval
+import com.jaiho.sss.`in`.util.L
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job

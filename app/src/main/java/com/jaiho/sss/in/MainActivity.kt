@@ -1,4 +1,4 @@
-package com.jaiho.sss.in
+package com.jaiho.sss.`in`
 
 import android.graphics.Color
 import android.os.Bundle
@@ -10,10 +10,10 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.ui.Modifier
-import com.jaiho.sss.in.data.BotRuntime
-import com.jaiho.sss.in.ui.HomeRoute
-import com.jaiho.sss.in.ui.theme.SanjoyTheme
-import com.jaiho.sss.in.util.L
+import com.jaiho.sss.`in`.data.BotRuntime
+import com.jaiho.sss.`in`.ui.HomeRoute
+import com.jaiho.sss.`in`.ui.theme.SanjoyTheme
+import com.jaiho.sss.`in`.util.L
 
 class MainActivity : ComponentActivity() {
 

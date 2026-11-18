@@ -1,8 +1,8 @@
-package com.jaiho.sss.in.data
+package com.jaiho.sss.`in`.data
 
 import android.content.Context
 import android.content.Intent
-import com.jaiho.sss.in.util.L
+import com.jaiho.sss.`in`.util.L
 
 /** The package the game normally ships under. */
 private const val GAME_PACKAGE = "com.jaiho.sss.in"

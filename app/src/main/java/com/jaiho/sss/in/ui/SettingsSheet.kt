@@ -1,4 +1,4 @@
-package com.jaiho.sss.in.ui
+package com.jaiho.sss.`in`.ui
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
@@ -23,13 +23,13 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.jaiho.sss.in.model.intervalFor
-import com.jaiho.sss.in.ui.theme.Accent
-import com.jaiho.sss.in.ui.theme.Bg
-import com.jaiho.sss.in.ui.theme.Danger
-import com.jaiho.sss.in.ui.theme.Surface1
-import com.jaiho.sss.in.ui.theme.TextDim
-import com.jaiho.sss.in.ui.theme.TextMain
+import com.jaiho.sss.`in`.model.intervalFor
+import com.jaiho.sss.`in`.ui.theme.Accent
+import com.jaiho.sss.`in`.ui.theme.Bg
+import com.jaiho.sss.`in`.ui.theme.Danger
+import com.jaiho.sss.`in`.ui.theme.Surface1
+import com.jaiho.sss.`in`.ui.theme.TextDim
+import com.jaiho.sss.`in`.ui.theme.TextMain
 import kotlin.math.roundToInt
 
 @OptIn(ExperimentalMaterial3Api::class)

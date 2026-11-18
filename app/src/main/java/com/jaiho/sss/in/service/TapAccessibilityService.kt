@@ -1,10 +1,10 @@
-package com.jaiho.sss.in.service
+package com.jaiho.sss.`in`.service
 
 import android.accessibilityservice.AccessibilityService
 import android.accessibilityservice.GestureDescription
 import android.graphics.Path
 import android.view.accessibility.AccessibilityEvent
-import com.jaiho.sss.in.util.L
+import com.jaiho.sss.`in`.util.L
 
 class TapAccessibilityService : AccessibilityService() {
 

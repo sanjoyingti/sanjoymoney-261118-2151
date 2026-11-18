@@ -1,9 +1,9 @@
-package com.jaiho.sss.in.data
+package com.jaiho.sss.`in`.data
 
-import com.jaiho.sss.in.model.BotSettings
-import com.jaiho.sss.in.model.NetStats
-import com.jaiho.sss.in.model.SessionStats
-import com.jaiho.sss.in.util.L
+import com.jaiho.sss.`in`.model.BotSettings
+import com.jaiho.sss.`in`.model.NetStats
+import com.jaiho.sss.`in`.model.SessionStats
+import com.jaiho.sss.`in`.util.L
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.SupervisorJob

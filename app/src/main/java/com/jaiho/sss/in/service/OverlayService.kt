@@ -1,4 +1,4 @@
-package com.jaiho.sss.in.service
+package com.jaiho.sss.`in`.service
 
 import android.app.Notification
 import android.app.PendingIntent
@@ -11,12 +11,12 @@ import android.content.pm.ServiceInfo
 import android.os.Build
 import android.os.IBinder
 import androidx.core.app.NotificationCompat
-import com.jaiho.sss.in.BotApp
-import com.jaiho.sss.in.MainActivity
-import com.jaiho.sss.in.R
-import com.jaiho.sss.in.data.BotRuntime
-import com.jaiho.sss.in.net.NetHookService
-import com.jaiho.sss.in.util.L
+import com.jaiho.sss.`in`.BotApp
+import com.jaiho.sss.`in`.MainActivity
+import com.jaiho.sss.`in`.R
+import com.jaiho.sss.`in`.data.BotRuntime
+import com.jaiho.sss.`in`.net.NetHookService
+import com.jaiho.sss.`in`.util.L
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job

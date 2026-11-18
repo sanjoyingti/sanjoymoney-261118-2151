@@ -1,4 +1,4 @@
-package com.jaiho.sss.in.ui
+package com.jaiho.sss.`in`.ui
 
 import android.Manifest
 import android.app.Activity
@@ -53,16 +53,16 @@ import androidx.lifecycle.LifecycleEventObserver
 import androidx.lifecycle.compose.LocalLifecycleOwner
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.lifecycle.viewmodel.compose.viewModel
-import com.jaiho.sss.in.model.intervalFor
-import com.jaiho.sss.in.net.NetHookService
-import com.jaiho.sss.in.ui.theme.Accent
-import com.jaiho.sss.in.ui.theme.Danger
-import com.jaiho.sss.in.ui.theme.Outline
-import com.jaiho.sss.in.ui.theme.Surface1
-import com.jaiho.sss.in.ui.theme.Surface2
-import com.jaiho.sss.in.ui.theme.TextDim
-import com.jaiho.sss.in.ui.theme.TextMain
-import com.jaiho.sss.in.util.L
+import com.jaiho.sss.`in`.model.intervalFor
+import com.jaiho.sss.`in`.net.NetHookService
+import com.jaiho.sss.`in`.ui.theme.Accent
+import com.jaiho.sss.`in`.ui.theme.Danger
+import com.jaiho.sss.`in`.ui.theme.Outline
+import com.jaiho.sss.`in`.ui.theme.Surface1
+import com.jaiho.sss.`in`.ui.theme.Surface2
+import com.jaiho.sss.`in`.ui.theme.TextDim
+import com.jaiho.sss.`in`.ui.theme.TextMain
+import com.jaiho.sss.`in`.util.L
 
 @Composable
 fun HomeRoute(vm: HomeViewModel = viewModel()) {

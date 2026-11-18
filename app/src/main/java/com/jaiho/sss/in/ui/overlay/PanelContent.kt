@@ -1,4 +1,4 @@
-package com.jaiho.sss.in.ui.overlay
+package com.jaiho.sss.`in`.ui.overlay
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
@@ -31,17 +31,17 @@ import androidx.compose.ui.input.pointer.pointerInput
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.jaiho.sss.in.data.BotRuntime
-import com.jaiho.sss.in.model.TAP_POINTS
-import com.jaiho.sss.in.model.TapPoint
-import com.jaiho.sss.in.model.intervalFor
-import com.jaiho.sss.in.model.label
-import com.jaiho.sss.in.ui.theme.Accent
-import com.jaiho.sss.in.ui.theme.Outline
-import com.jaiho.sss.in.ui.theme.Surface1
-import com.jaiho.sss.in.ui.theme.Surface2
-import com.jaiho.sss.in.ui.theme.TextDim
-import com.jaiho.sss.in.ui.theme.TextMain
+import com.jaiho.sss.`in`.data.BotRuntime
+import com.jaiho.sss.`in`.model.TAP_POINTS
+import com.jaiho.sss.`in`.model.TapPoint
+import com.jaiho.sss.`in`.model.intervalFor
+import com.jaiho.sss.`in`.model.label
+import com.jaiho.sss.`in`.ui.theme.Accent
+import com.jaiho.sss.`in`.ui.theme.Outline
+import com.jaiho.sss.`in`.ui.theme.Surface1
+import com.jaiho.sss.`in`.ui.theme.Surface2
+import com.jaiho.sss.`in`.ui.theme.TextDim
+import com.jaiho.sss.`in`.ui.theme.TextMain
 
 private val PANEL_WIDTH = 236.dp
 private val SHAPE = RoundedCornerShape(18.dp)

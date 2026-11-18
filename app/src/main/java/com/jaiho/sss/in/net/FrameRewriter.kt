@@ -1,4 +1,4 @@
-package com.jaiho.sss.in.net
+package com.jaiho.sss.`in`.net
 
 import kotlinx.serialization.json.Json
 import kotlinx.serialization.json.JsonArray
